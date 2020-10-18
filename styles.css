@@ -1,7 +1,12 @@
 body {
 	font-family: sans-serif;
-	background-color: #00ace6;
+	background-color: #992600;
+	color: #dfdfdf;
 	margin: 0px;
+}
+
+label, #quoteSubmit, #quoteNumberInput, p {
+	font-size: 20px;
 }
 
 #page-container {
@@ -12,37 +17,47 @@ body {
 	min-height: calc(100vh - 75px);
 }
 
-#weatherDiv {
-	display: flex;
-	flex-direction: row;
-}
-
-#weatherResults, #forecastResults {
-	padding: 100px;
+#quoteResults {
+	padding: 50px;
 }
 
 h1 {
+	color: #fdbd4e;
 	padding-bottom: 50px;
 }
 
+h2 {
+	color: #fdbd4e;
+	text-align: center;
+	font-size: 40px;
+}
 
+p {
+	padding: 15px;
+}
 
+form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
 
+#formItem {
+	padding: 10px;
+}
 
+strong {
+	color: #fdbd4e;
+}
 
-
-
-
-
-
-
-
-
+a {
+	color: #dfdfdf;
+}
 
 footer {
   height: 60px;
   align-items: center;
   text-align: center;
-  background-color: #0086b3;
+  background-color: #661a00;
   padding-top: 40px;
 }
